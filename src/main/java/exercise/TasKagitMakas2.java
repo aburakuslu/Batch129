@@ -1,4 +1,4 @@
-package calisma;
+package exercise;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package calisma;
+package exercise;
 
 public class UdemyQuestions {
 
