@@ -4,12 +4,20 @@ public class StdRunner {
 
     public static void main(String[] args) {
 
-        System.out.println("Student.stdName = " + Student.stdName);
+        class MyClass { String isim = "Ali Can";
+            int yas = 33; int kilo = 85;
+            MyClass(){
+            }
+            MyClass(String isim, int yas){
+                this.isim = isim;
+                this.yas = yas; }
+            MyClass(String isim){ this.isim = isim;
+            }
 
-        Student std1 = new Student();
-        System.out.println(std1.age);
+            StdRunner insan01 = new StdRunner();
 
+        }
 
-
+        System.out.println();
     }
 }
